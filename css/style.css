@@ -1,0 +1,30 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;    
+}
+
+
+#container {
+    display: flex;
+    width: 560px;
+    height: 580px;
+    border: 3px solid black;
+    flex-wrap: wrap;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+}
+
+#container>div {
+    width: 30px;
+    height: 30px;
+    border: 1px solid gray;
+}

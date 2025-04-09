@@ -4,27 +4,25 @@
     box-sizing: border-box;
 }
 
-body{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-top: 20px;    
+html, body {
+    height: 100%;
 }
 
-
-#container {
+body {
     display: flex;
-    width: 560px;
-    height: 580px;
-    border: 3px solid black;
-    flex-wrap: wrap;
-    gap: 4px;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5vh;
 }
 
-#container>div {
-    width: 30px;
-    height: 30px;
-    border: 1px solid gray;
+button {
+    height: 3vh;
+}
+
+.container {
+    display: flex;  
+    flex-direction: column;
+    height: 70vh;
+    width: 70vh;
 }

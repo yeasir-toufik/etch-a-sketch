@@ -19,13 +19,21 @@ function createGrid(n) {
           cell.addEventListener("mouseover", function() {
               if (cell.style.backgroundColor == "") {
                   
-                  cell.style.backgroundColor = "red";
+                  cell.style.backgroundColor = 'hsl(' + 360 * Math.random() + ', 50%, 50%)';
+                  
+                  
               }
               
               else {
                 cell.style.backgroundColor = "green";
+            
+                  
+         
+               
               }
           })
+
+        
           
       }
   }

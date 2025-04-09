@@ -16,8 +16,10 @@ body {
     gap: 5vh;
 }
 
-button {
-    height: 3vh;
+#btn {
+    
+    border-radius: 12px;
+    padding: 10px;
 }
 
 .container {
